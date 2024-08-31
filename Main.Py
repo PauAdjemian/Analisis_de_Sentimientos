@@ -17,10 +17,11 @@ comments = [
     "Hola Xavier, me gustó mucho el video. Hace unos minutos ví el de el plan de estudio que seguiste para aprender programación. Apenas estoy empezando y, me pregunto dónde o cómo puedo aplicar mis conocimientos después de cada sesión de estudio. Espero puedas resoponder. Gracias"
 ]
 
-palabras_clave= ["bueno", "buen", "gracias", "video", "programador", "mucho", "ayuda", "no", "dificil", "nada"]
-palabras_positivas = {"bueno", "buen", "gracias"}
-palabras_neutrales = {"video", "programador", "mucho", "ayuda"}
-palabras_negativas = {"no", "dificil", "nada"}
+#palabras_clave= ["bueno", "buen", "gracias", "video", "programador", "mucho", "ayuda", "no", "dificil", "nada"]
+palabras_positivas = ["bueno", "buen", "gracias"]
+palabras_neutrales = ["video", "programador", "mucho", "ayuda"]
+palabras_negativas = ["no", "dificil", "nada"]
+palabras_clave = palabras_positivas+palabras_neutrales+palabras_negativas
 #print(palabras_clave)
 
 import unicodedata
