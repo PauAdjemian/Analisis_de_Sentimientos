@@ -88,7 +88,7 @@ def sentimiento_prom(frase):
 
 print("ALGORITMO CON TODAS LAS FRASES\n")
 
-def repetir_todo(frases):
+def repetir_todo(frases): #funcion para ejecutar todas las operaciones en todas las frases e imprimirlo
     cont=1
     for frase in frases:
         print(f"Frase {cont}: "+frase)
